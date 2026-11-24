@@ -54,6 +54,10 @@ Hospedajes con puntajes altos en Despegar (Refugia Chiloé, ALMA CHILOTA, RILÁN
 
 En [`plantilla-landing/index.html`](plantilla-landing/index.html) hay una plantilla de una página, sin dependencias, pensada para restaurantes y cafés. Se personaliza cambiando los textos marcados con `[CORCHETES]` y el número de WhatsApp.
 
+## Demo: Amukan Gourmet
+
+En [`demos/amukan-gourmet/index.html`](demos/amukan-gourmet/index.html) hay una landing de ejemplo para mostrar al dueño. Usa su dirección, horario y teléfono de un directorio externo. Los platos, precios y fotos son de ejemplo y están marcados como tales.
+
 ## Pendientes
 
 - [ ] Verificar en vivo web, Instagram y Google Maps de cada negocio.
