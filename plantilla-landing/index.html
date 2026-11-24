@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[NOMBRE DEL NEGOCIO] | Castro, Chiloé</title>
+<meta name="description" content="[NOMBRE DEL NEGOCIO] en Castro, Chiloé. [Qué ofrece en una frase]. Reserva por WhatsApp.">
+<style>
+:root{--bg:#fbf8f3;--ink:#1d2b2a;--accent:#1f6f6b;--muted:#5d6b69;--card:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#121918;--ink:#eef3f1;--accent:#4fc1ba;--muted:#a3b3b0;--card:#1b2625}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{padding:80px 0 56px;text-align:center}
+h1{font-size:clamp(2rem,6vw,3.5rem);margin:0 0 12px}
+header p{color:var(--muted);max-width:560px;margin:0 auto 24px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 28px;border-radius:999px;text-decoration:none;font-weight:600}
+section{padding:40px 0}
+h2{margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;padding:20px;border:1px solid rgba(128,128,128,.2)}
+.card h3{margin:0 0 6px}
+.card p{margin:0;color:var(--muted)}
+.ph{aspect-ratio:4/3;background:rgba(128,128,128,.2);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+iframe{width:100%;height:320px;border:0;border-radius:12px}
+footer{padding:32px 0;text-align:center;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>[NOMBRE DEL NEGOCIO]</h1>
+  <p>[Frase corta: qué sirven o venden, en qué barrio de Castro están y por qué visitarlos.]</p>
+  <a class="btn" href="https://wa.me/56900000000?text=Hola%2C%20quiero%20reservar">Reservar por WhatsApp</a>
+</div></header>
+
+<main class="wrap">
+  <section id="carta">
+    <h2>Carta destacada</h2>
+    <div class="grid">
+      <div class="card"><h3>[Plato 1]</h3><p>[Descripción breve] · $[precio]</p></div>
+      <div class="card"><h3>[Plato 2]</h3><p>[Descripción breve] · $[precio]</p></div>
+      <div class="card"><h3>[Plato 3]</h3><p>[Descripción breve] · $[precio]</p></div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="grid">
+      <div class="ph">[Foto 1]</div><div class="ph">[Foto 2]</div><div class="ph">[Foto 3]</div>
+    </div>
+  </section>
+
+  <section id="visitanos">
+    <h2>Visítanos</h2>
+    <p><strong>Dirección:</strong> [Calle y número], Castro, Chiloé<br>
+       <strong>Horario:</strong> [Martes a domingo, 13:00 a 22:30]<br>
+       <strong>Teléfono:</strong> [+56 9 0000 0000]</p>
+    <!-- Reemplazar src por el enlace "Compartir > Insertar mapa" de Google Maps -->
+    <iframe title="Mapa" loading="lazy" src="about:blank"></iframe>
+  </section>
+</main>
+
+<footer>© [AÑO] [NOMBRE DEL NEGOCIO] · Sitio creado por Polaris Solution</footer>
+</body>
+</html>

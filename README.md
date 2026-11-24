@@ -34,11 +34,30 @@ Referencia de comparación: **Sacho Restaurant** (Thomson 213) sí tiene sitio (
 - Versión en inglés, por el turismo extranjero.
 - Dominio propio y Google Business Profile enlazado.
 
+## Ampliación: hospedajes y tours
+
+Tampoco se verificó su web. Son prospectos a revisar, ya que muchos dependen de Booking, Despegar o TripAdvisor, que cobran comisión. Una web propia con reserva directa les ahorra esa comisión.
+
+| Negocio | Rubro | Señal | Oportunidad |
+|---------|-------|-------|-------------|
+| Palafito Hostel Chiloé | Hostal (Gamboa) | 9,0 en Kayak con 319 opiniones | Reserva directa y versión en inglés |
+| Palafito 1326 Hotel Boutique | Hotel boutique (Gamboa) | Recomendado por Fodor's | Landing de marca, mismo nombre que el restaurante La Terraza 1326 (posible mismo dueño) |
+| Palafitos Emilio y Ester | Alojamiento en palafito | Reseñas positivas en Trip.com | Landing con galería y reservas |
+| Turismo Queilen (Thompson 255) | Tours y kayak | Listado en Interpatagonia | Landing con tours, precios y reserva por WhatsApp |
+| Chiloé Natural | Agencia de tours | Listado en Interpatagonia | Verificar si tiene web |
+| Chiloetnico | Operador turístico | Listado en directorio | Verificar si tiene web |
+| Turismo Pehuén (Blanco 299, dato antiguo) | Tours | Descrita como pionera de la isla | Probablemente más establecida; verificar |
+
+Hospedajes con puntajes altos en Despegar (Refugia Chiloé, ALMA CHILOTA, RILÁN) y Hotel Parque Quilquico quedan fuera de Castro centro o con perfil más alto. Se dejan como segunda ola.
+
+## Plantilla de landing
+
+En [`plantilla-landing/index.html`](plantilla-landing/index.html) hay una plantilla de una página, sin dependencias, pensada para restaurantes y cafés. Se personaliza cambiando los textos marcados con `[CORCHETES]` y el número de WhatsApp.
+
 ## Pendientes
 
 - [ ] Verificar en vivo web, Instagram y Google Maps de cada negocio.
 - [ ] Obtener datos de contacto de los dueños (los teléfonos de listados externos pueden estar desactualizados).
-- [ ] Ampliar a hoteles, hospedajes y operadores de tours.
 - [ ] Contrastar con datos de visitantes de Sernatur o la Municipalidad de Castro.
 
 ## Fuentes
@@ -49,5 +68,9 @@ Referencia de comparación: **Sacho Restaurant** (Thomson 213) sí tiene sitio (
 - [Kupi: Amukan Gourmet](https://kupi.com/en/explore/chile/castro/amukan-gourmet)
 - [Wanderlog: El Mercadito de Chiloé](https://wanderlog.com/place/details/4489694/el-mercadito-de-chiloé)
 - [TripAdvisor: Rucalaf Chiloé](https://www.tripadvisor.es/Restaurant_Review-g317804-d4591072-Reviews-Rucalaf_Chiloe-Castro_Isla_Chiloe_Los_Lagos_Region.html)
+- [Booking: guest houses en Castro](https://www.booking.com/guest-house/city/cl/castro.html)
+- [Fodor's: hoteles en Castro](https://www.fodors.com/world/south-america/chile/chiloe/places/castro/hotels)
+- [Interpatagonia: Turismo Queilen](https://www.interpatagonia.com/castro/c4253.html)
+- [Frommer's: tours guiados en Castro](https://www.frommers.com/destinations/castro/side-trips/guided-tours/)
 - [Interpatagonia: compras en Castro](https://www.interpatagonia.com/castro/compras.html)
 - [Store Leads: tiendas Jumpseller en Castro](https://storeleads.app/reports/jumpseller/CL/city/Castro)
